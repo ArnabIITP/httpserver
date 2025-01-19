@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe4f5;
+    color: #4b0082;
+}
+.container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff0f6;
+    background-image: url('https://www.transparenttextures.com/patterns/heart-paper.png');
+}
+.note {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+}
+.note h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff69b4;
+}
+.note p {
+    font-size: 1.4em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #6a0dad;
+}
+.signature {
+    font-size: 1.4em;
+    font-style: italic;
+    color: #8b0000;
+}
+.footer {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #ff6347;
+}
+.start-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffd1dc;
+    background-image: url('https://www.transparenttextures.com/patterns/bedge-grunge.png');
+    text-align: center;
+    flex-direction: column;
+    animation: bounce 2s infinite;
+}
+.start-container h1 {
+    font-size: 2.5em;
+    color: #ff1493;
+}
+.start-container p {
+    font-size: 1.2em;
+    color: #6a5acd;
+}
+.start-container button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.start-container button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+.cute-section {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #ff7f50;
+}
+.gif-container {
+    margin: 20px 0;
+}
+.gif-container img {
+    display: block;
+    margin: 0 auto;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
